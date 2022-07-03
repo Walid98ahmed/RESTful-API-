@@ -17,11 +17,11 @@ const userSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    isAdmin: {
-      type: Boolean,
-      required: true,
-      default: false,
-    },
+    userImage: {
+      type: String,
+      required: true
+    }
+   
   },
   {
     timestamps: true,
