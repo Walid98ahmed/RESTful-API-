@@ -19,7 +19,7 @@ const userSchema = mongoose.Schema(
     },
     userImage: {
       type: String,
-      required: true
+      required:true
     }
    
   },

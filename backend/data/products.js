@@ -9,7 +9,7 @@ const products = [
       price: 89.99,
       countInStock: 10,
       rating: 4.5,
-      numReviews: 4,
+      numReviews: 4, 
     },
     {
       name: 'iPhone 11 Pro 256GB Memory',

@@ -19,7 +19,7 @@ const fileFilter = (req, file, cb) => {
     cb(null, true);
   } else {
     cb(null, false);
-  }
+  }  
 };
 
 const upload = multer({
